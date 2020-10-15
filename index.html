@@ -45,12 +45,13 @@
 
       event.preventDefault();
       
+     //update the data content by submiting and using element.innerText 
       h1.querySelector("span").innerText = form.name.value;
 
       p.querySelector("span").innerText = form.food.value;
     }
 
-    //update the data content by submiting and using element.innerText
+    
     form.addEventListener('submit', formHandler);
   
   </script>
